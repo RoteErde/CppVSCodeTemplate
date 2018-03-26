@@ -1,6 +1,6 @@
 CC=clang++-3.8
 CFLAGS=-I.
-DEPS=-lcrypto -lssl -lcpprest -lboost_system 
+DEPS=-lcrypto -lssl -lboost_system 
 CPP_OPTS=-std=c++14
 NOLINK=-c 
 ARTEFACT= -o main.exe
